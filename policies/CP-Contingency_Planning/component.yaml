@@ -1,3 +1,32 @@
+##
+## BEGINNING OF:
+## CONTINGENCY PLANNING
+##
+
+- control_key: CP-1
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - key: a
+      text: |-
+        The organization will be responsible for developing, documenting, and
+        disseminating Contingency Planning policy and procedures. A
+        successful control response will need to address the content of the
+        policy (which must include purpose, scope, roles, responsibilities,
+        management commitment, coordination, and compliance) and procedures
+        (which must facilitate the implementation of the policies and
+        associated controls).
+
+    - key: b
+      text: |-
+        The organization will be responsible for reviewing and updating the
+        Contingency Planning policy every  years, and procedures annually.
+        A successful response will need to address the review and update
+        process, including the role(s) responsible for initiating the review
+        process, updating the policy and procedures, and providing approval
+        of the updates.
+
 - control_key: CP-2
   standard_key: NIST-800-53
   covered_by: []
@@ -56,7 +85,6 @@
         response will need to address policy, procedural, and technical
         safeguards that are in place to protect the contingency plan.
 
-
 - control_key: CP-2 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -69,7 +97,6 @@
         to address the coordination of initial development, as well as how
         updates to the contingency plan affect related plans and vice versa.
 
-
 - control_key: CP-2 (2)
   standard_key: NIST-800-53
   covered_by: []
@@ -80,7 +107,6 @@
         in an alternative region. A successful control response will need to
         note that capacity for necessary processing has been reserved in an
         alternate region.
-
 
 - control_key: CP-2 (3)
   standard_key: NIST-800-53
@@ -93,7 +119,6 @@
         and IaaS customers. A successful control response will indicate if this
         control is inherited through your platform provider, and if not,
         details how mission functions will be resumed.
-
 
 - control_key: CP-2 (8)
   standard_key: NIST-800-53
@@ -109,7 +134,6 @@
         functionality, the remainder of the control may be inherited
         from your infrastruture provider.
 
-
 - control_key: CP-3
   standard_key: NIST-800-53
   covered_by: []
@@ -121,7 +145,6 @@
         successful control response will need to outline the scope and contents
         of the training, the audience for the training, and the means by which
         training attendance is tracked and enforced.
-
 
 - control_key: CP-4
   standard_key: NIST-800-53
@@ -149,7 +172,6 @@
         need to address the types of corrective actions taken and timeframes
         for those actions.
 
-
 - control_key: CP-4 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -161,7 +183,6 @@
         disaster recovery plans, etc.). A successful control response will need
         to address ensuring that any test results relevant to related plans are
         communicated so that corrective actions may be taken as needed.
-
 
 - control_key: CP-6
   standard_key: NIST-800-53
@@ -179,7 +200,6 @@
         provide information security safeguards equivalent to the primary
         site.
 
-
 - control_key: CP-6 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -189,7 +209,6 @@
         The customer will be responsible for identifying an alternative
         storage site that is separated from the primary storage site to reduce
         susceptibility to the same threats.
-
 
 - control_key: CP-6 (3)
   standard_key: NIST-800-53
@@ -202,7 +221,6 @@
         an area-wide disruption or disaster and outlines explicit
         mitigation actions. This control is often inherited from IaaS and PaaS
         providers.
-
 
 - control_key: CP-7
   standard_key: NIST-800-53
@@ -230,7 +248,6 @@
         processing site provides information security safeguards equivalent
         to that of the primary site.
 
-
 - control_key: CP-7 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -245,7 +262,6 @@
         on the types of threats that are of concern. This control is often
         inherited from organizational processes.
 
-
 - control_key: CP-7 (2)
   standard_key: NIST-800-53
   covered_by: []
@@ -258,7 +274,6 @@
         actions. This control is often inherited from organizational
         processes.
 
-
 - control_key: CP-7 (3)
   standard_key: NIST-800-53
   covered_by: []
@@ -269,7 +284,6 @@
         site agreements that contain priority-of-service provisions in
         accordance with organizational availability requirements. This control
         is often inherited from organizational, IaaS, or PaaS providers.
-
 
 - control_key: CP-8
   standard_key: NIST-800-53
@@ -283,7 +297,6 @@
         to resume business operations that is consistent with the business
         impact analysis. This control is often inherited from organizational,
         IaaS, or PaaS providers.
-
 
 - control_key: CP-8 (1)
   standard_key: NIST-800-53
@@ -306,7 +319,6 @@
         alternate telecommunications services are provided by a common carrier.
         This control is often inherited from IaaS and PaaS providers.
 
-
 - control_key: CP-8 (2)
   standard_key: NIST-800-53
   covered_by: []
@@ -318,7 +330,6 @@
         single point of failure with primary telecommunications services. This
         control is often inherited from IaaS and PaaS providers.
 
-
 - control_key: CP-10
   standard_key: NIST-800-53
   covered_by: []
@@ -328,6 +339,3 @@
         The customer will be responsible for providing recovery and
         reconstitution of the information system to a known state after a
         disruption, compromise, or failure.
-
-
-
