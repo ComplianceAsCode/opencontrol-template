@@ -1,3 +1,32 @@
+##
+## BEGINNING OF:
+## CONFIGURATION MANAGEMENT
+##
+
+- control_key: CM-1
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - key: a
+      text: |-
+        The organization will be responsible for developing, documenting, and
+        disseminating Configuration Management policy and procedures. A
+        successful control response will need to address the content of the
+        policy (which must include purpose, scope, roles, responsibilities,
+        management commitment, coordination, and compliance) and procedures
+        (which must facilitate the implementation of the policies and
+        associated controls).
+
+    - key: b
+      text: |-
+        The organization will be responsible for reviewing and updating the
+        Configuration Management policy every 3 years, and procedures
+        annually. A successful control response will need to address
+        the review and update process, including the role(s) responsible
+        for initiating the review process, updaitng the policy and
+        procedures, and providing approval of the updates
+
 - control_key: CM-2
   standard_key: NIST-800-53
   covered_by: []
@@ -9,7 +38,6 @@
         of the information system. A successful control response will need to
         address the way the baseline configurations are managed and
         maintained.
-
 
 - control_key: CM-2 (1)
   standard_key: NIST-800-53
@@ -29,7 +57,6 @@
         baseline configuration of the information system when required by the
         JAB. A successful control response will need to address updates to the
         baseline configuration when required by the JAB.
-
 
 - control_key: CM-3
   standard_key: NIST-800-53
@@ -86,7 +113,6 @@
         will outline how major changes or developments that affect government
         services will be coordinated and overseen.
 
-
 - control_key: CM-5
   standard_key: NIST-800-53
   covered_by: []
@@ -100,7 +126,6 @@
         documented, and enforced. This should include tools used to enforce
         these restrictions, such as Active Directory, and how these personnel
         are approved for access.
-
 
 - control_key: CM-5 (5)
   standard_key: NIST-800-53
@@ -123,7 +148,6 @@
         privileges at least quarterly. A successful control response will
         include how often reviews are performed for presonnel with privileges
         to change the information system within the production environment.
-
 
 - control_key: CM-6
   standard_key: NIST-800-53
@@ -150,7 +174,6 @@
         exceptions, and the process for identifying and approving these
         deviations.
 
-
 - control_key: CM-6 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -163,7 +186,6 @@
         describe any automated systems in place used to manage, apply, and
         verify configuration settings. An example of this is using Active
         Directory Group Policy Objects to manage security settings.
-
 
 - control_key: CM-8
   standard_key: NIST-800-53
@@ -189,7 +211,6 @@
         updating the system inventory and the process for correcting gaps or
         discrepancies found.
 
-
 - control_key: CM-8 (5)
   standard_key: NIST-800-53
   covered_by: []
@@ -201,7 +222,6 @@
         in other information system inventories. A successful control response
         will describe the process used to ensure that assets are not included
         in multiple system inventories.
-
 
 - control_key: CM-9
   standard_key: NIST-800-53
@@ -245,7 +265,6 @@
         management plan is protected from disclosure, such as where it is
         stored, and controls in place to prevent unauthorized access.
 
-
 - control_key: CM-10
   standard_key: NIST-800-53
   covered_by: []
@@ -275,6 +294,15 @@
         technology allowed within the system. An example of this could include
         acceptable use policies in place.
 
+- control_key: CM-10 (1)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - text: |-
+        The organization will be responsible for establishing any restrictions on
+        the use of open source software. A successful control response will
+        describe any restrictions that the organization has in place.
 
 - control_key: CM-11
   standard_key: NIST-800-53
@@ -287,4 +315,3 @@
         the installation of software by users. A successful control response
         will describe policies in place that define the restrictions in place
         for installation of software by users.
-
