@@ -1,8 +1,61 @@
+##
+## BEGINNING OF:
+## AUDIT AND ACCOUNTABILITY
+##
+
+- control_key: AU-1
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - key: a
+      text: |-
+        The organization will be responsible for developing, documenting, and
+        disseminating Audit and Accountability policy and procedures. A
+        successful control repsonse will need to address the content of the
+        policy (which must include purpose, scope, roles, responsibilities,
+        management commitment, coordination, and compliance) and procedures
+        (which must facilitate the implementation of the policies and
+        associated controls).
+
+    - key: b
+      text: |-
+        The organization will be responsible for reviewing and updating the
+        Audit and Accountability policy every 3 years, and procedures
+        annually. A successful control response will need to address the
+        review and update process, including the role(s) responsible
+        for initiating the review process, updating the policy and
+        procedures, and providing approval of the updates.
+
 - control_key: AU-2
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: none
   narrative:
+    - key: a
+      text: |-
+        The organization will be responsible for determining which events
+        their software applications must be capable of auditing. A successful
+        control response will need to address the FedRAMP-required auditable
+        events listed above as well as any additional events the organization
+        feels should auditable based on organization needs.
+
+    - key: b
+      text: |-
+        The organization will be responsible for implementing this control. A
+        successful control response will need to address coordination with all
+        interested parties (such as an internal SOC or security team) and
+        incorporation of their input into business requirements in order to
+        determine the selection of auditable events.
+
+    - key: c
+      text: |-
+        The organization will be responsible for implimenting this control. A
+        successful control response will include a discussion of the decision
+        process behind the selection of auditable events and a justification for
+        the selected events being sufficient to support after-the-fact
+        investigation.
+
     - key: d
       text: |-
         The customer will be responsible for selecting a subsec of the events
@@ -15,7 +68,6 @@
         information sysem. Technical implimentation, at a information system
         component level, is documented in AU-12(a).
 
-
 - control_key: AU-2 (3)
   standard_key: NIST-800-53
   covered_by: []
@@ -27,6 +79,34 @@
         A successful control response will outline how often events are
         reviewed.
 
+- control_key: AU-3
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - text: |-
+        The organization is responsible for generating audit records that contain
+        information that establishes what type of event occured, when the event
+        occurred, where the event occured, the source of the event, the
+        outcome of the event, and the identity of any individuals or subjects
+        associated with the event. A successful control response will outline
+        what metadata the organization requires audit records to contain.
+
+- control_key: AU-3 (1)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - text: |-
+        The organization is responsible ensuring that the information system
+        audit records conain all of the information required to meet
+        FedRAMP requirements. A successful control response will outline the
+        systems audit generation, and the content that it includes.
+
+        Note: This control defines what supplimentary data audit records must
+        contain, such as full text recording of privileged commands. Metadata
+        elements of audit logs are defined in AU-3. Component configuration is
+        established through AU-12(c).
 
 - control_key: AU-4
   standard_key: NIST-800-53
@@ -38,7 +118,6 @@
         in accordance with the organizations requirements. A successful control
         response will explain the procedures in place to ensure that audit
         storage is allocated according to meet customer requirements.
-
 
 - control_key: AU-6
   standard_key: NIST-800-53
@@ -59,7 +138,6 @@
         reported to the appropriate personnel. A successful control response
         will outline how the audit review findings are reported.
 
-
 - control_key: AU-6 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -73,6 +151,17 @@
         tools used for integrating review, analysis, and reporting, and how
         these tools are employed.
 
+- control_key: AU-6 (3)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - text: |-
+        Customers are responsible for analyzing and correlating audit records
+        accross different repositories to gain organiational-wide situational
+        awareness. A successful control response will discuss how the organization
+        correlates and analyzes audit records from different sources. This can
+        include processes and tools used to meet these goals.
 
 - control_key: AU-7
   standard_key: NIST-800-53
@@ -90,7 +179,6 @@
         This can include a discussion of tools used to provide this capability,
         and how they are used.
 
-
 - control_key: AU-9 (4)
   standard_key: NIST-800-53
   covered_by: []
@@ -103,7 +191,6 @@
         to only appropriate personnel. This can include a description of who
         this functionality is restricted to, and how this is controlled.
 
-
 - control_key: AU-11
   standard_key: NIST-800-53
   covered_by: []
@@ -114,9 +201,8 @@
         days to provide support for after the fact investigations of security
         incidents and to meet regulatory and organizational information
         retention requirements. A successful control response will discuss how
-        long audit records are retained.>
+        long audit records are retained.
 
-        <Audit log retention may be configured in the underlying Red Hat
+        Audit log retention may be configured in the underlying Red Hat
         Enterprise Linux audit daemon. If using a central or 3rd party
         logging solution, this may likely need to be configured in that tool.
-
