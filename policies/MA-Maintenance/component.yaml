@@ -1,3 +1,27 @@
+- control_key: MA-1
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: none
+  narrative:
+    - key: a
+      text: |-
+        The organization will be responsible for developing, documenting, and
+        disseminating System Maintenance policy and procedures. A successful
+        control response will need to address the content of the policy
+        (which must include purpose, scope, roles, responsibilities,
+        management commitments, coordination, and compliance) and procedures
+        (which must facilitate the implementation of the policies and
+        associated controls).
+
+    - key: b
+      text: |-
+        The organization will be responsible for reviewing and updating the
+        System Maintenance policy every 3 years, and procedures annually. A
+        successful control response will need to address the review and
+        update process, including the role(s) responsible for initiating the
+        review process, updating the policy and procedures, and providing
+        approval of the updates.
+
 - control_key: MA-2
   standard_key: NIST-800-53
   covered_by: []
@@ -19,7 +43,6 @@
         organizational facilities. This is frequently an inherited control
         from IaaS providers and not applicable to OpenShift deployments.
 
-
 - control_key: MA-3
   standard_key: NIST-800-53
   covered_by: []
@@ -29,7 +52,6 @@
         The customer will be responsible for approving, controlling, and
         monitoring information system maintenance records. A successful
         control response will document this process.
-
 
 - control_key: MA-3 (1)
   standard_key: NIST-800-53
@@ -42,7 +64,6 @@
         or unauthorized modifications. A successful control response
         will document this process.
 
-
 - control_key: MA-3 (2)
   standard_key: NIST-800-53
   covered_by: []
@@ -53,7 +74,6 @@
         diagnostic and test programs for malicious code before the
         media are used in the information system. A successful control response
         documents this process.
-
 
 - control_key: MA-3 (3)
   standard_key: NIST-800-53
@@ -69,7 +89,6 @@
         equipment within the facility; (d) process to obtain an exception
         from these processes from the information owner that explicity
         authorizes removal of equipment from the facility
-
 
 - control_key: MA-4
   standard_key: NIST-800-53
@@ -88,7 +107,6 @@
         who are authorized to perform maintenance and diagnostic activities,
         and how those activities are tracked.
 
-
 - control_key: MA-4 (2)
   standard_key: NIST-800-53
   covered_by: []
@@ -101,7 +119,6 @@
         address when non-local maintenance and diagnostic connections are
         allowed, what personnel are authorized to establish and use them, and
         udner what circumstances connections must be terminated.
-
 
 - control_key: MA-5
   standard_key: NIST-800-53
@@ -131,7 +148,6 @@
         control response will document the process for becoming an escore, and
         how technical competence is established.
 
-
 - control_key: MA-5 (1)
   standard_key: NIST-800-53
   covered_by: []
@@ -158,7 +174,6 @@
         lacking appropriate authorizations will not be able to access
         data residing on the informarion system.
 
-
 - control_key: MA-6
   standard_key: NIST-800-53
   covered_by: []
@@ -168,4 +183,3 @@
         The customer will be responsible for obtaining maintenance support
         and/or spare parts for critical components within a reasonable time
         to minimize production impact.
-
