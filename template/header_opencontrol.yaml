@@ -1,5 +1,5 @@
 ---
-    documentation_complete: false
-    name: PRODUCT NAME
-    schema_version: 3.0.0
-    satisfies:
+documentation_complete: false
+name: PRODUCT NAME
+schema_version: 3.0.0
+satisfies:
